@@ -13,9 +13,9 @@ import TelephoneInput from 'react-tel-input-japan';
 React.renderComponent(
   <div>
     <TelephoneInput
-      value={this.state.memo}
-      maxLength={30}
-      placeholder="this is \na \nmultiple line \nplaceholder"
+      value={this.state.value}
+      onChange={(value, valid) => this.setState({ value, valid })}
+      placeholder={'input telephone number'}
     />
   </div>,
   document.querySelector('#element'));
