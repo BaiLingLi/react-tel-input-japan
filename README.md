@@ -5,11 +5,13 @@ A react telephone number input component for japan.
 The following features are provided.
 
 - Inputs a telephone number and displays it with format of xxx-xxxx-xxxx.
+
   - It adds and removes "-" automatically.
   - It keeps the cursor position as much as possible.
   - It keeps the "-" when editing a inputted value.
 
 - Validates the telephone number and return the validate result with the second parameters of onChange function.
+  Validation Result is true when input value matches the regular expression /^(050|070|080|090)-{0,1}\d{4}-{0,1}\d{4}$/.
 
 ```javascript
 import TelephoneInput from 'react-tel-input-japan';
