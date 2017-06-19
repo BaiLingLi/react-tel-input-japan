@@ -1,7 +1,7 @@
 {
   "name": "react-tel-input-japan",
   "description": "a react telephone number input component for japan",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "keywords": "telephone number, react, react-component, input, tel",
   "repository": "BaiLingLi/react-tel-input-japan",
   "license": "MIT",
